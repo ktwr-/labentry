@@ -1,0 +1,137 @@
+/* チャットレイアウト */
+.chat-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden; /*floatの解除*/
+    margin-bottom: 20px;
+}
+.chat-face {
+    float: left;
+    margin-right: -120px;
+}
+.chat-face img{
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px #ddd;
+}
+.chat-area {
+    width: 100%;
+    float: right;
+}
+.chat-hukidashi {
+    display: inline-block; /*コメントの文字数に合わせて可変*/
+    padding: 15px 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.box{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: #c6e4ff;
+    border-top: solid 5px #aac5de;
+		border-radius: 9px;
+}
+.box p {
+    margin: 0;
+    padding: 0;
+}
+
+
+div.top19{
+  font-size: 10pt;/*全体の文字サイズ*/
+  color: #121215;/*全体の文字色*/
+  background-color: #C8C8C9;/*左右の背景色*/
+  background-image: url("images/010_bg.gif");
+  background-position: 0px 1px;
+  padding: 0px;
+  margin: 10% 15%;
+  border: solid 1px #515155;/*外枠の色*/
+  }
+div.box19{
+  background-color: #FCFCFD;/*内側の背景色*/
+  margin: 0px 20px 0px 10%;
+  border-left: solid 1px #616166;
+  border-right: solid 1px #616166;
+  }
+a:link{/*リンク色*/
+  color: #443966;
+  text-decoration: none;
+  border-bottom: solid 2px #F2F2F5;
+  }
+a:visited{/*訪問済みリンク色*/
+  color: #554966;
+  text-decoration: none;
+  border-bottom: solid 2px #F2F2F5;
+  }
+a:active{/*アクティブリンク色*/
+  color: #553866;
+  border-bottom: solid 2px #957579;
+  }
+a:hover{/*ホバーリンク色*/
+  color: #553866;
+  border-bottom: solid 2px #957579;/*マウスオン時の下線設定*/
+  }
+h1{/*SiteTitle部分*/
+  color: #434348;
+  font-size: 14pt;
+  font-weight: normal;
+  font-family: "Lucida Sans Unicode",Arial,sans-serif;
+  letter-spacing: 0.1em;
+  padding: 0.2em 1em 0.3em 0.5em;
+  margin: 0px 0px 8px 0px;
+  border-left: solid 10px #616166;/*左の線*/
+  }
+div.contents{/*内容部分*/
+  height: 300px;/*高さを設定*/
+  overflow: auto;
+  padding: 1em;
+  margin: 1px 0px 1px 0px;
+  scrollbar-3dlight-color: #ABABAC;
+  scrollbar-arrow-color: #515151;
+  scrollbar-darkshadow-color: #FCFCFD;
+  scrollbar-face-color: #F5F5F7;
+  scrollbar-highlight-color:#FCFCFD;
+  scrollbar-shadow-color: #ABABAC;
+  scrollbar-track-color: #FCFCFD;
+  }
+.contents dl{
+  margin: 0.2em;
+  }
+.contents dt{/*日付部分*/
+  font-size: 90%;
+  font-family: Tahoma,Arial,sans-serif;
+  padding: 0.2em;
+  border-bottom: solid 2px #949498;
+  }
+.contents dd{/*文章部分*/
+  margin: 0px 1em 1em 1em;
+  padding: 0.4em;
+  border-left: double 3px #617196;
+  }
+div.about{/*About部分の設定*/
+  padding: 0.3em;
+  margin: 1em;
+  border: solid 1px #515154;
+  }
+div.foot{/*下部のメニュー部分の設定*/
+  font-size: 80%;
+  font-family: Tahoma,Arial,sans-serif;
+  letter-spacing: 0.1em;
+  background-color: #F2F2F5;
+  padding: 1px 30px 2px 10%;
+  margin-top: -1px;
+  border-top: solid 1px #616166;
+  }
+
+.kaiwa-img-description {
+  padding: 5px 0 0;
+  font-size: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
+

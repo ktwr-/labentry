@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  nginx:
+    #build: ./nginx
+    image: nginx
+    container_name: "csrf"
+    ports:
+      - "4455:80"
+    volumes:
+      - ./web:/web
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+  php:
+    build: ./php
+    container_name: "csrf-php"
+    volumes:
+      - ./web:/web
